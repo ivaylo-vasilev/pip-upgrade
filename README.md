@@ -2,7 +2,7 @@
 Python script to upgrade all installed packages using pip command
 ---
 
-**pip_upgrade.py** is script written in *Python* that performs an upgrade to ***all*** installed packages using the **pip** command. I needed to have a solution to upgrade all the packages I am using with a single command. The tool that I use for installing, managing, and uninstalling the packages in my system is **pip** and I am working in a *virtualenv* with access to globally-installed packages. That is the most common way in Linux distributions. So I needed to "see" only the user-site packages or those installed within the virtualenv. Once I list them and find which ones need an upgrade I need a proper way to pass their names in **pip** and perform an upgrade for each one.
+**pip_upgrade.py** is a script written in *Python* that performs an upgrade to ***all*** installed packages using the **pip** command. I needed to have a solution to upgrade all the packages that I am using with a single command. The tool that I use for installing, managing, and uninstalling the packages in my system is **pip** and I am working in a *virtualenv* with access to globally-installed packages. That is the most common way in Linux distributions. So I needed to "see" only the user-site packages or those installed within the virtualenv. Once I list them and find which ones need an upgrade I need a proper way to pass their names in **pip** and perform an upgrade for each one.
 
 So my Python script, **pip_upgrade.py**, is doing all this with *a single command*:
 ```
